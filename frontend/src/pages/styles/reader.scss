@@ -1,0 +1,64 @@
+div#import-article-container {
+
+    
+    div#import-article {
+        display: block;
+
+        position: fixed;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+        z-index: 100;
+    
+        width: 500px;
+        height: 200px;
+
+        margin: 0;
+        padding: 0;
+    
+        background-color: rgb(255, 234, 207);
+        box-shadow: 0 5px 10px gray;
+
+        div#source-selection-container {
+            padding: 20px;
+
+            span#source-selection-heading{
+                margin: 0 0 10px 0;
+                display: block;
+                
+                font-weight: bold;
+            }
+
+            form#article-source-selection {
+                width: 100%;
+                height: 100%;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                input {
+                    margin: 5px 0;
+
+                    width: 100%;
+                    height: 25px;
+                }
+
+                input[type="text"] {
+                    height: 30px;
+                    padding: 0 10px;
+                }
+
+                input[type="submit"] {
+                    align-self: flex-end;
+                }
+            }
+        }
+    }
+}
+
+main.article-content {
+    text-indent: 20px;
+    line-height: 25px;
+}

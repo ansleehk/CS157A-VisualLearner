@@ -1,0 +1,23 @@
+menu.sub-setting {
+    width: 100%;
+    height: 30px;
+
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    align-items: center;
+
+    margin: 0;
+    padding: 5px 20px;
+
+    background-color: lightseagreen;
+
+    img.close-icon {
+        width: 12px;
+        height: 12px;
+    }
+
+    img.close-icon:hover {
+        cursor: pointer;
+    }
+}
